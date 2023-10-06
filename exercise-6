@@ -1,0 +1,17 @@
+import numpy as np
+q = np.array([[1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]])
+print("husnegt:")
+print(q)
+
+niilber = np.sum(q)
+print("niilber:", niilber)
+
+bagana_niilber = np.sum(q, axis=0)
+print("bagana niilber:")
+print(bagana_niilber)
+
+mur_niilber = np.sum(q, axis=1)
+print("mur niilber:")
+print(mur_niilber)
