@@ -1,0 +1,3 @@
+import numpy as np
+q = np.diag(np.arange(1, 6))
+print(q)
